@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.interruptor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.interruptor button{
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.interruptor button:hover{
+    background-color: black;
+    color: yellow
+}
+
+.conteiner-list{
+    display: flex;
+    justify-content: center;    
+    height: 300px;
+    margin: 50px;  
+    
+}
+
+.conteiner-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: black;
+    color: yellow;
+    font-weight: bolder;
+    width: 500px;
+    border: 1px solid white;
+}
+
+.conteiner-list li{
+    padding: 30px;
+    list-style-type: none;
+    font-size: 1.2rem;
+
+}
+
+.conteiner-button{
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-button button{
+    background-color: red;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.conteiner-button button:hover{
+    background-color: black;
+    color: yellow
+}

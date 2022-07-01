@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: rgb(189, 255, 65);
+    width: 100%;
+    height: 500px;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    margin-top: 25px;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    padding: 5px;
+    margin: 5px;
+    outline: none;
+    width: 35%;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+button{
+    padding: 5px;
+    width: 15%;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.patrick-img{
+    margin-top: 50px;
+    width: 65%;
+    display: none;
+}
+
+.active{
+    display: initial;
+}
